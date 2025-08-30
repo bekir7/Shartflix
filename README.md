@@ -144,8 +144,7 @@
 3. **Firebase Kurulumu (Opsiyonel)**
 
    ```bash
-   # Firebase kurulum kılavuzunu takip edin
-   # FIREBASE_SETUP.md dosyasına bakın
+   # Aşağıda yazıyor.
    ```
 
 4. **Kodu üretin**
