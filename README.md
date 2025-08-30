@@ -1014,6 +1014,13 @@ NotificationListener<ScrollNotification>(
 - Kullanım istatistikleri
 
 ---
+### Ekran Görüntüleri
+<img width="405" height="872" alt="Ekran Görüntüsü (446)" src="https://github.com/user-attachments/assets/031e6c46-d4fd-4788-a244-59053da94b64" />
+<img width="403" height="874" alt="Ekran Görüntüsü (445)" src="https://github.com/user-attachments/assets/54e1d0da-0487-408d-93a1-56ab319ae45c" />
+<img width="410" height="879" alt="Ekran Görüntüsü (444)" src="https://github.com/user-attachments/assets/7a789bcd-34af-4aa7-aa62-cd70539d0a20" />
+<img width="412" height="872" alt="Ekran Görüntüsü (449)" src="https://github.com/user-attachments/assets/a5816f0c-e1a2-4cdb-a081-a47a7aec2c8e" />
+<img width="410" height="872" alt="Ekran Görüntüsü (448)" src="https://github.com/user-attachments/assets/4e63b992-47dd-4c46-b0bd-8d94a5785c3b" />
+<img width="403" height="874" alt="Ekran Görüntüsü (447)" src="https://github.com/user-attachments/assets/1cc21d83-b623-452a-abc6-3e23cd2c41cb" />
 
 
 <div align="center">
