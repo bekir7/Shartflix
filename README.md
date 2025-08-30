@@ -40,32 +40,7 @@
 
 ## 🏗️ Mimari
 
-### Temiz Mimari (Domain-Driven Design)
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    SUNUM KATMANI                           │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │    Sayfalar │  │   Widget'lar│  │    BLoC     │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│                     DOMAIN KATMANI                         │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │  Use Case'ler│  │Repository'ler│  │   Varlıklar │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│                      VERİ KATMANI                          │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │Repository'ler│  │ Veri Kaynakları│  │   Modeller   │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└─────────────────────────────────────────────────────────────┘
-```
+### Clean Architecture
 
 ### 🎯 Mimari Prensipleri
 
@@ -756,14 +731,6 @@ Analytics'in performans etkisini minimize etmek için:
 - Test crash'i deneyin
 - Firebase Console'da Crashlytics'in etkin olduğunu kontrol edin
 
-### 📞 Destek
-
-Firebase ile ilgili sorunlar için:
-
-- [Firebase Dokümantasyonu](https://firebase.google.com/docs)
-- [Firebase Support](https://firebase.google.com/support)
-- [Flutter Firebase Plugin](https://firebase.flutter.dev/)
-
 ---
 
 ## 📁 Proje Yapısı
@@ -955,49 +922,6 @@ static const Color darkCard = Color(0xFF3A3A3A);
 
 ---
 
-## 🔧 Geliştirme Yönergeleri
-
-### Kod Stili
-
-- Flutter/Dart kurallarını takip edin
-- Anlamlı değişken ve fonksiyon isimleri kullanın
-- Karmaşık mantık için yorumlar ekleyin
-- Fonksiyonları küçük ve odaklanmış tutun
-
-### Durum Yönetimi
-
-- Karmaşık durum için BLoC kullanın
-- Durumu değişmez tutun
-- Yükleme ve hata durumlarını yönetin
-- Değer eşitliği için equatable kullanın
-
-### Hata Yönetimi
-
-- Uygun hata sınırları uygulayın
-- Kullanıcı dostu hata mesajları gösterin
-- Hata ayıklama için hataları loglayın
-- Ağ hatalarını zarif bir şekilde yönetin
-
-### Test
-
-- İş mantığı için birim testleri
-- UI bileşenleri için widget testleri
-- Kullanıcı akışları için entegrasyon testleri
-- Dış bağımlılıkları mock'layın
-
----
-
-## 📱 Platform Desteği
-
-- ✅ **Android**: API seviyesi 21+ (Android 5.0+)
-- ✅ **iOS**: iOS 12.0+
-- ✅ **Web**: Modern tarayıcılar
-- ✅ **Windows**: Windows 10+
-- ✅ **macOS**: macOS 10.14+
-- ✅ **Linux**: Ubuntu 18.04+
-
----
-
 ## 🔄 API Entegrasyonu
 
 ### Endpoint'ler
@@ -1009,25 +933,6 @@ static const Color darkCard = Color(0xFF3A3A3A);
 - `POST /auth/register` - Kullanıcı kaydı
 - `GET /auth/user` - Mevcut kullanıcı verilerini al
 - `POST /auth/upload-photo` - Profil fotoğrafı yükle
-
-### Yanıt Formatı
-
-```json
-{
-  "success": true,
-  "message": "Başarılı",
-  "data": {
-    "movies": [...],
-    "pagination": {
-      "totalCount": 100,
-      "perPage": 5,
-      "maxPage": 20,
-      "currentPage": 1
-    }
-  }
-}
-```
-
 ---
 
 ## 🚀 Performans Optimizasyonları
@@ -1111,45 +1016,6 @@ NotificationListener<ScrollNotification>(
 
 ---
 
-## 🤝 Katkıda Bulunma
-
-1. Repository'yi fork edin
-2. Özellik dalı oluşturun (`git checkout -b feature/harika-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Harika özellik ekle'`)
-4. Dalı push edin (`git push origin feature/harika-ozellik`)
-5. Pull Request açın
-
-### Geliştirme İş Akışı
-
-- Mevcut kod stilini takip edin
-- Yeni özellikler için test ekleyin
-- Dokümantasyonu güncelleyin
-- Tüm testlerin geçtiğinden emin olun
-
----
-
-## 📄 Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
----
-
-## 🙏 Teşekkürler
-
-- **Flutter Ekibi** harika framework için
-- **BLoC Kütüphanesi** durum yönetimi için
-- **Dio** HTTP client işlevselliği için
-- **CachedNetworkImage** görsel optimizasyonu için
-
----
-
-## 📞 Destek
-
-- **Sorunlar**: [GitHub Issues](https://github.com/yourusername/shartflix/issues)
-- **Tartışmalar**: [GitHub Discussions](https://github.com/yourusername/shartflix/discussions)
-- **E-posta**: support@shartflix.com
-
----
 
 <div align="center">
 
